@@ -5,7 +5,7 @@ def run():
     potencia = 2**contador
     while potencia <= LIMITE:
         print(f'2 potencia {contador} es igual a {potencia}')
-        contador = contador+1
+        contador += 1
         potencia = 2**contador
     return True
 
