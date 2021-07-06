@@ -7,4 +7,12 @@ def manipularTexto(nombre):
     for acrostico in nombre:
         print(acrostico)
 
-manipularTexto(str(input('Digita tu nombre: ')))
+    return nombre    
+
+nombre = manipularTexto(str(input('Digita tu nombre: ')))
+print(nombre[0:3])
+print(nombre[:3])
+print(nombre[3:])
+print(nombre[1:7:2])
+print(nombre[::])
+print(nombre[::-1])
