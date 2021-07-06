@@ -16,3 +16,7 @@ print(nombre[3:])
 print(nombre[1:7:2])
 print(nombre[::])
 print(nombre[::-1])
+if nombre[::] == nombre[::-1]:
+    print(f'La palabra {nombre} es un palindromo')
+else:
+    print('Es una palabra corriente')
