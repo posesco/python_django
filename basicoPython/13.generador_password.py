@@ -1,6 +1,6 @@
 import random
 
-def generarPass():
+def generar_pass():
     mayus = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Y', 'Z']
     minus = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'v', 'x', 'y', 'z']
     simbols = ['＃','＄', '％', '＆', '＊', '？', '＠', '～', '(', ')']
@@ -17,7 +17,7 @@ def generarPass():
     return password
 
 def run():
-    password = generarPass()
+    password = generar_pass()
     print(f'Tu password es: {password}')
     
 if __name__ == '__main__':

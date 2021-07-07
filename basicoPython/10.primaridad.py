@@ -1,4 +1,4 @@
-def esPrimo(numero):
+def es_primo(numero):
     contador = 0
     for i in range (1, numero + 1):
         if i == 1 or i == numero:
@@ -13,7 +13,7 @@ def esPrimo(numero):
 
 def run():
     numero = int(input('Escribe un numero: '))
-    if esPrimo(numero):
+    if es_primo(numero):
         print(f'{numero} es primo')
     else:
         print(f'{numero} no es primo')

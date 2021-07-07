@@ -1,6 +1,6 @@
-def conversor(tipoPesos, valorDolar):
-    pesos = float(input (f'Ingrese la cantidad de pesos {tipoPesos}: '))
-    dolares = round(pesos / valorDolar, 2)
+def conversor(tipo_pesos, valor_dolar):
+    pesos = float(input (f'Ingrese la cantidad de pesos {tipo_pesos}: '))
+    dolares = round(pesos / valor_dolar, 2)
     return dolares
     
 menu = """

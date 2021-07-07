@@ -1,4 +1,4 @@
-def manipularTexto(nombre):
+def manipular_texto(nombre):
     print(f'Tu nombre en mayusculas {nombre.upper()}')
     print(f'Tu nombre en minusculas {nombre.lower()}')
     print(f'Tu nombre como nombre {nombre.capitalize()}')
@@ -9,7 +9,7 @@ def manipularTexto(nombre):
 
     return nombre    
 
-nombre = manipularTexto(str(input('Digita tu nombre: ')))
+nombre = manipular_texto(str(input('Digita tu nombre: ')))
 print(nombre[0:3])
 print(nombre[:3])
 print(nombre[3:])
